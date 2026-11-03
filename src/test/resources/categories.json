@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Разрешенные данные пользователя не позволяют войти",
+    "matchedStatuses": ["failed"],
+    "messageRegex": "(?s).*Успешная операция должна возвращать HTTP 2xx.*",
+    "traceRegex": "(?s).*qa.SessionTest.validToken.*"
+  },
+  {
+    "name": "Неверный способ обращения выглядит как поломка сервера",
+    "matchedStatuses": ["failed"],
+    "messageRegex": "(?s).*Неподдерживаемый HTTP-метод.*"
+  },
+  {
+    "name": "Не удалось выполнить проверку",
+    "matchedStatuses": ["broken"]
+  }
+]
