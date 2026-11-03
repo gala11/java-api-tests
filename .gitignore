@@ -1,0 +1,11 @@
+target/
+.tools/
+.allure/
+.idea/
+*.iml
+*.7z
+*.jar
+!maven-wrapper.jar
+.env
+*.log
+docs/task.md
